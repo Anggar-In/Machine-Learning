@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Receipt OCR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Receipt OCR</h1>
+        <div class="button-group">
+            <button id="uploadButton" onclick="startUpload()">Upload Photo</button>
+            <button id="clearUploadButton" style="display: none;" onclick="clearUpload()">Clear Upload</button>
+            <button id="cameraButton" onclick="startCamera()">Take Photo</button>
+            <button id="captureButton" style="display: none;" onclick="capturePhoto()">Capture Photo</button>
+            <button id="closeCameraButton" style="display: none;" onclick="closeCamera()">Close Camera</button>
+        </div>
+        <input type="file" id="fileInput" hidden accept="image/*" onchange="handleFile(event)">
+        <video id="camera" style="display: none;" autoplay></video>
+        <canvas id="canvas" hidden></canvas>
+        <img id="preview">
+        <div id="result"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
