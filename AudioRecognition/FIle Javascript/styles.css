@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+#output, #extractedData {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 100px;
+    text-align: left;
+}
+#controls {
+    margin: 20px 0;
+}
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+#extractedData {
+    background-color: #f0f0f0;
+    white-space: pre-wrap;
+}
