@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stock Recommendations</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Stock Recommendations</h1>
+    <input
+      type="number"
+      id="target-return"
+      placeholder="Enter target return (%)"
+    />
+    <button onclick="getRecommendations()">Get Recommendations</button>
+    <table id="results">
+      <thead>
+        <tr>
+          <th>Stock Code</th>
+          <th>Revenue (IDR)</th>
+          <th>Net Income (IDR)</th>
+          <th>Market Cap (IDR)</th>
+          <th>Annual EPS</th>
+          <th>Return on Equity (%)</th>
+          <th>1-Year Return (%)</th>
+          <th>3-Year Return (%)</th>
+          <th>5-Year Return (%)</th>
+          <th>Dividend Yield (%)</th>
+          <th>Payout Ratio (%)</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
