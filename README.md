@@ -42,12 +42,20 @@ To tackle this issue, our team developed Anggar.In, a comprehensive financial ma
 Leveraging machine learning, cloud computing, and mobile technology, Anggar.In aims to boost financial awareness, foster sustainable habits, and support informed decision-making, helping Indonesians navigate economic challenges and build long-term financial resilience.
 
 
+**Machine Learning:** 
+
+In the Machine Learning path, we developed several features, starting with our MVP [stock prediction](https://github.com/Anggar-In/Machine-Learning/tree/main/stock_price_predictions) and [recommendation models](https://github.com/Anggar-In/Machine-Learning/tree/main/stockRecommendation)  for a financial freedom calculator. These models utilize TensorFlow, are saved using TensorFlow.js for web deployment, preprocess data using Min-Max Scaler for normalization, and apply time series forecasting for stock price prediction alongside linear regression for stock recommendations. Beyond the MVP, we also building supplementary features beyond the MVP, such as [Receipt OCR](https://github.com/Anggar-In/Machine-Learning/tree/main/Receipt_OCR) and [Audio Recognition](https://github.com/Anggar-In/Machine-Learning/tree/main/AudioRecognition). The Receipt OCR leverages the Pytesseract library for extracting text from images, while the Audio Recognition feature utilizes the WebSpeech API. Both systems are tuned with preprocessing techniques for image or audio and use regex for data extraction. This feature is useful for automating expense and income tracking.
+
+**Dataset:**
+1. Stock Predictions: [Stock Predictions Datasets](https://github.com/Anggar-In/Machine-Learning/tree/main/stock_price_predictions/trainingDataset)
+2. Stock Recommendation: [Stock Recommendation](https://github.com/Anggar-In/Machine-Learning/tree/main/stockRecommendation/trainingDataset)
+
+# How to Use The Code
+
+
+# Other Path Documentation
 **Mobile Development:**
 [Anggar.In Mobile Developments Repository](https://github.com/Anggar-In/Mobile-Development)
 
 **Cloud Computing:**
 [Anggar.In Cloud Computing Repository](https://github.com/Anggar-In/Cloud-Computing)
-
-**Machine Learning:** 
-
-In the Machine Learning path, we developed several features, starting with our MVP stock prediction and recommendation models for a financial freedom calculator. These models utilize TensorFlow, are saved using TensorFlow.js for web deployment, preprocess data using Min-Max Scaler for normalization, and apply time series forecasting for stock price prediction alongside linear regression for stock recommendations. Beyond the MVP, we also building supplementary features beyond the MVP, such as Receipt OCR and Audio Recognition. The Receipt OCR leverages the Pytesseract library for extracting text from images, while the Audio Recognition feature utilizes the WebSpeech API. Both systems are tuned with preprocessing techniques for image or audio and use regex for data extraction. This feature is useful for automating expense and income tracking.
