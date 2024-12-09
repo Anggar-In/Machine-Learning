@@ -31,7 +31,7 @@ ANGGAR.IN MACHINE LEARNING DOCUMENTATION
 * Audio Recognition (Income and Expense Tracking) - Muhamad Faqih Zacky (M312B4KY2631)
 
 # Anggar.In Machine Learing Project Explanation
-This Machine Learning project is our final project for Google Bangkit Academy 2024 Batch 2.
+This project is our final project for Google Bangkit Academy 2024 Batch 2.
 
 **Project Background:**
 
