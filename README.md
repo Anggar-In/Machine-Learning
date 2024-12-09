@@ -100,7 +100,7 @@ Browser-based file is a Notebook file that has been converted into a Browser-Bas
 3. Select index.html file
 4. Right click and select the Open with Live Server
 5. For Receipt OCR you can take a photo or upload the Receipt Sample
-6. For Audio OCR you can just talking with this format: [Audio OCR Format](https://github.com/Anggar-In/Machine-Learning/blob/main/AudioRecognition/README.md)
+6. For Audio OCR you can just speech with this format: [Audio OCR Format](https://github.com/Anggar-In/Machine-Learning/blob/main/AudioRecognition/README.md)
 
 # Other Path Documentation 
 **Mobile Development:**
