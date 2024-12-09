@@ -17,7 +17,7 @@ ANGGAR.IN MACHINE LEARNING DOCUMENTATION
 
 ### Team ID : C242-PS048
 
-### These Are Our Team Members in the Machine learning Division:
+### These Are Our Team Members in the Machine Learning Division:
 
 * (ML) M312B4KY2530 - Mochammad Dhiya Ulhaq - Universitas Sebelas Maret
 * (ML) M312B4KY2631 - Muhamad Faqih Zacky - Universitas Sebelas Maret
